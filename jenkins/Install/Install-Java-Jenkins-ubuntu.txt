@@ -28,6 +28,15 @@ Install Jenkins
 	echo deb https://pkg.jenkins.io/debian-stable binary/ | sudo tee /etc/apt/sources.list.d/jenkins.list
 	sudo apt-get update
 	sudo apt-get install jenkins
+	
+	mine
+	/opt/apache-maven-3.8.4/bin/samplejavaapp# /opt/apache-maven-3.8.4/bin/mvn compile
+	
+	/opt/apache-maven-3.8.4/bin/samplejavaapp# /opt/apache-maven-3.8.4/bin/mvn test
+	
+	check maven and java version and home
+	./mvn --version
+	/opt/apache-maven-3.8.4/bin/
 
 
 
