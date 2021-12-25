@@ -21,6 +21,7 @@ Install Maven  ( on Jenkins machine )
 	cd bin/
 	ls -ltr
 	./mvn test
+	/opt/apache-maven-3.8.4/bin/mvn where maven called from
 
 Install Jenkins
 
